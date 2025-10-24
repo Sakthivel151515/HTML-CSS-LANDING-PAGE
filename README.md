@@ -1,21 +1,41 @@
 # Trabook — Travel Agency Landing Page
 
-This repository contains a static HTML + CSS mock landing page for a travel brand named "Trabook." The project focuses on layout and visual design; it does not include a backend or JavaScript-driven interactions by default.
+This repository contains a static HTML + CSS mock landing page for a travel brand named "Trabook." The project focuses on layout and visual design with responsive components.
 
-Summary
-- Static files: `index.html`, `script.css`, and an `assets/` folder containing images and SVGs.
-- Responsive layout with a mobile breakpoint at 600px (see `script.css`).
+## Features
+- Fully responsive layout with mobile-first approach
+- Clean, modern design using Google Fonts
+- Semantic HTML structure
+- CSS custom properties for consistent styling
+- Multiple sections including hero, features, deals, testimonials, and blog
 
-How to preview locally
+## Quick Start
 
-1. Open `index.html` directly in a browser (quick preview).
-2. Recommended: serve the folder via a local HTTP server so fonts and some browser behaviors load consistently:
-
-```powershell
-# from the project root
+1. Clone the repository
+2. Open `index.html` directly in a browser, or
+3. Use a local server (recommended):
+```bash
+# Using Python
 python -m http.server 8000
-# then open http://localhost:8000
+# Then visit http://localhost:8000
 ```
+
+## Project Structure
+- `index.html` - Main HTML file with semantic structure
+- `script.css` - Stylesheet with organized sections
+- `assets/` - Images and SVG files
+
+## Technical Details
+- Breakpoint: 600px for mobile responsiveness
+- Google Fonts: Poppins, Roboto, Volkhov
+- Custom color variables for consistent theming
+
+## Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
 
 Or use the VS Code Live Server extension.
 
